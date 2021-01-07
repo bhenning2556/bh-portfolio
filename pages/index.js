@@ -18,12 +18,12 @@ export default function Home() {
         </Head>
 
         <Jumbotron>
-          <div className="d-flex flex-column flex-md-row w-100 justify-content-center align-items-center">
-            <h1>Benjamin Henning</h1>
-            <img src={TitleGif} style={{marginLeft: "20px", width: "450px", height: "36px"}} alt="Fullstack Developer"></img>
+          <div className="d-flex flex-column flex-md-row w-100 justify-content-center">
+            <h1 style={{marginLeft: "20px"}}>Benjamin Henning</h1>
+            <div className="d-flex align-items-center pt-2" style={{height: "48px"}}><img src={TitleGif} style={{marginLeft: "20px", width: "450px", height: "36px"}} alt="Fullstack Developer"></img></div>
           </div>
           
-          <p className="text-align-center">
+          <p style={{marginLeft: "20px", marginTop: "20px"}}>
             Thanks for viewing my Portfolio! Check out my past work in the 'projects' tab where you can see live previews or view the source code on github.
           </p>
           <div className="d-flex w-100 justify-content-center">
