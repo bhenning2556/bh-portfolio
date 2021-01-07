@@ -10,7 +10,7 @@ const Layout = ({children}) => {
     <>
       <div className="min-vh-100">
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="#home">Benjamin Henning</Navbar.Brand>
+          <Navbar.Brand>Benjamin Henning</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">

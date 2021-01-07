@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 import Layout from '../components/layout'
-import TitleGif from '../public/text-anim-gray.gif'
+import TitleGif from '../public/text-anim-gray-lg.gif'
 
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
@@ -18,14 +18,17 @@ export default function Home() {
         </Head>
 
         <Jumbotron>
-          <h1>Benjamin Henning</h1>
-          <img src={TitleGif} style={{height: "30px", width: "270px"}} alt="Fullstack Developer"></img>
-          <p>
+          <div className="d-flex flex-column flex-md-row w-100 justify-content-center align-items-center">
+            <h1>Benjamin Henning</h1>
+            <img src={TitleGif} style={{marginLeft: "20px", width: "450px", height: "36px"}} alt="Fullstack Developer"></img>
+          </div>
+          
+          <p className="text-align-center">
             Thanks for viewing my Portfolio! Check out my past work in the 'projects' tab where you can see live previews or view the source code on github.
           </p>
-          <p>
+          <div className="d-flex w-100 justify-content-center">
             <Link href="/projects"><Button variant="primary">See Projects <i class="fas fa-arrow-right"></i></Button></Link>
-          </p>
+          </div>
         </Jumbotron>
       </div>
     </Layout>
