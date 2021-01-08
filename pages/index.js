@@ -5,8 +5,6 @@ import styles from '../styles/Home.module.css'
 import Layout from '../components/layout'
 import TitleGif from '../public/text-anim-gray-lg.gif'
 import Skill from '../components/skill'
-
-import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
 
 import htmlLogo from '../public/html-5.png'
@@ -40,7 +38,7 @@ export default function Home() {
     <Layout>
       <div className={styles.container}>
         <Head>
-          <title>Benjamin Henning - Portfolio</title>
+          <title>Portfolio - Home</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div className={styles.content}>
@@ -49,8 +47,8 @@ export default function Home() {
             <div className="d-flex align-items-center pt-2" style={{height: "48px"}}><img src={TitleGif} style={{marginLeft: "20px", width: "450px", height: "36px"}} alt="Fullstack Developer"></img></div>
           </div>
           
-          <p style={{marginLeft: "20px", marginTop: "20px"}}>
-            Thanks for viewing my Portfolio! Check out my past work in the 'projects' tab where you can see live previews or view the source code on github.
+          <p className="text-center" style={{marginLeft: "20px", marginTop: "20px"}}>
+            Thanks for viewing my Portfolio! Check out my past work in the 'projects' tab where you can see live previews or view my source code on github.
           </p>
           <div className="d-flex w-100 justify-content-center">
             <Link href="/projects"><Button variant="primary">See Projects <i class="fas fa-arrow-right"></i></Button></Link>

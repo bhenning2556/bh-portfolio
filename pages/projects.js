@@ -7,7 +7,7 @@ const Projects = () => {
     <Layout>
       <div className={styles.container}>
         <Head>
-          <title>Benjamin Henning - Portfolio</title>
+          <title>Portfolio - Projects</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
