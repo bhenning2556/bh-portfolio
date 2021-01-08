@@ -42,9 +42,11 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div className={styles.content}>
-          <div className="d-flex flex-column flex-md-row w-100 justify-content-center">
-            <h1 style={{marginLeft: "20px"}}>Benjamin Henning</h1>
-            <div className="d-flex align-items-center pt-2" style={{height: "48px"}}><img src={TitleGif} style={{marginLeft: "20px", width: "450px", height: "36px"}} alt="Fullstack Developer"></img></div>
+          <div className="d-flex flex-column flex-lg-row w-100 justify-content-center">
+            <h1 style={{marginLeft: "20px", textAlign: 'center'}}>Benjamin Henning</h1>
+            <div className="d-flex justify-content-center align-items-center pt-2" style={{height: "48px"}}>
+              <img src={TitleGif} className={styles.typewriter} alt="Fullstack Developer"></img>
+            </div>
           </div>
           
           <p className="text-center" style={{marginLeft: "20px", marginTop: "20px"}}>
@@ -62,7 +64,7 @@ export default function Home() {
             <div className="d-flex flex-row">
               <div className="d-flex flex-column">
                 <h3>Frontend</h3>
-                <div className="d-flex flex-column flex-md-row">
+                <div className="d-flex flex-column flex-lg-row">
                   <Skill title="HTML" imgsrc={htmlLogo} />
                   <Skill title="CSS" imgsrc={cssLogo} />
                   <Skill title="JavaScript" imgsrc={javascriptLogo} />
@@ -76,7 +78,7 @@ export default function Home() {
             <div className="d-flex flex-row">
               <div className="d-flex flex-column">
                 <h3>Backend</h3>
-                <div className="d-flex flex-column flex-md-row">
+                <div className="d-flex flex-column flex-lg-row">
                   <Skill title="Python" imgsrc={pythonLogo} />
                   <Skill title="JAVA" imgsrc={javaLogo} />
                   <Skill title="C#" imgsrc={csharpLogo} />
@@ -93,7 +95,7 @@ export default function Home() {
             <div className="d-flex flex-row">
               <div className="d-flex flex-column">
                 <h3>Machine Learning</h3>
-                <div className="d-flex flex-column flex-md-row">
+                <div className="d-flex flex-column flex-lg-row">
                   <Skill title="Numpy" imgsrc={numpyLogo} />
                   <Skill title="Pandas" imgsrc={pandasLogo} />
                   <Skill title="Matplotlib" imgsrc={matplotlibLogo} />
@@ -105,7 +107,7 @@ export default function Home() {
             <div className="d-flex flex-row">
               <div className="d-flex flex-column">
                 <h3>Design</h3>
-                <div className="d-flex flex-column flex-md-row">
+                <div className="d-flex flex-column flex-lg-row">
                   <Skill title="Photoshop" imgsrc={adobePsLogo} />
                   <Skill title="After Effects" imgsrc={adobeAeLogo} />
                   <Skill title="Adobe Xd" imgsrc={adobeXdLogo} />
@@ -116,7 +118,7 @@ export default function Home() {
             <div className="d-flex flex-row">
               <div className="d-flex flex-column">
                 <h3>Other</h3>
-                <div className="d-flex flex-column flex-md-row">
+                <div className="d-flex flex-column flex-lg-row">
                   <Skill title="GitHub" imgsrc={githubLogo} />
                   <Skill title="Regex" imgsrc={regexLogo} />
                 </div>

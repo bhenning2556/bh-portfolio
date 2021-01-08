@@ -129,3 +129,23 @@
   margin: 10px;
   width: 70%;
 }
+
+/* Queries for responsive resizing */
+
+/* Set these values when the screen width exeeds 1000px */
+@media screen and (min-width: 800px) {
+  .typewriter {
+    margin-left: 20px;
+    width: 450px;
+    height: 36px;
+  }
+}
+
+/* Set these values when the screen width is less than 999px */
+@media screen and (max-width: 799px) {
+  .typewriter {
+    margin-left: 50px;
+    width: 220px;
+    height: 18px;
+  }
+}
