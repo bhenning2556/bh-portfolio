@@ -9,6 +9,14 @@ import Skill from '../components/skill'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
 
+import htmlLogo from '../public/html5-2.svg'
+import cssLogo from '../public/css3.svg'
+import javascriptLogo from '../public/javascript.svg'
+import reactLogo from '../public/react-1.svg'
+import bootstrapLogo from '../public/bootstrap-4.svg'
+import nextjsLogo from '../public/next-js.svg'
+import csharpLogo from'../public/c--4.svg'
+
 
 
 export default function Home() {
@@ -36,13 +44,13 @@ export default function Home() {
         <Jumbotron>
           <h2>Skills</h2>
           <div className="d-flex">
-            <Skill title="HTML" imgsrc="../public/html5-2.svg" />
-            <Skill title="CSS" imgsrc="../public/css3.svg" />
-            <Skill title="JavaScript" imgsrc="../public/javascript.svg" />
-            <Skill title="React" imgsrc="../public/react-1.svg" />
-            <Skill title="Bootstrap" imgsrc="../public/bootstrap-4.svg" />
-            <Skill title="NextJS" imgsrc="../public/next-js.svg" />
-            <Skill title="C#" imgsrc="../public/c--4.svg" />
+            <Skill title="HTML" imgsrc={htmlLogo} />
+            <Skill title="CSS" imgsrc={cssLogo} />
+            <Skill title="JavaScript" imgsrc={javascriptLogo} />
+            <Skill title="React" imgsrc={reactLogo} />
+            <Skill title="Bootstrap" imgsrc={bootstrapLogo} />
+            <Skill title="NextJS" imgsrc={nextjsLogo} />
+            <Skill title="C#" imgsrc={csharpLogo} />
 
           </div>
         </Jumbotron>
