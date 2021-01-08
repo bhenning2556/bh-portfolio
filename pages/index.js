@@ -4,9 +4,12 @@ import styles from '../styles/Home.module.css'
 
 import Layout from '../components/layout'
 import TitleGif from '../public/text-anim-gray-lg.gif'
+import Skill from '../components/skill'
 
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
+
+
 
 export default function Home() {
   return (
@@ -16,7 +19,6 @@ export default function Home() {
           <title>Benjamin Henning - Portfolio</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-
         <Jumbotron>
           <div className="d-flex flex-column flex-md-row w-100 justify-content-center">
             <h1 style={{marginLeft: "20px"}}>Benjamin Henning</h1>
@@ -30,6 +32,21 @@ export default function Home() {
             <Link href="/projects"><Button variant="primary">See Projects <i class="fas fa-arrow-right"></i></Button></Link>
           </div>
         </Jumbotron>
+
+        <Jumbotron>
+          <h2>Skills</h2>
+          <div className="d-flex">
+            <Skill title="HTML" imgsrc="../public/html5-2.svg" />
+            <Skill title="CSS" imgsrc="../public/css3.svg" />
+            <Skill title="JavaScript" imgsrc="../public/javascript.svg" />
+            <Skill title="React" imgsrc="../public/react-1.svg" />
+            <Skill title="Bootstrap" imgsrc="../public/bootstrap-4.svg" />
+            <Skill title="NextJS" imgsrc="../public/next-js.svg" />
+            <Skill title="C#" imgsrc="../public/c--4.svg" />
+
+          </div>
+        </Jumbotron>
+
       </div>
     </Layout>
   )

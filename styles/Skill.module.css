@@ -1,0 +1,17 @@
+.content{
+  border:1px solid rgb(155, 155, 155);
+  border-radius:10px;
+  padding:10px;
+  margin: 10px;
+}
+.titlebox{
+  float:center;
+  text-align:center;
+	padding:0 5px;
+	margin:-20px 0 0 0px;
+	background:#e9ecef;
+}
+.skillimg {
+  width: 100px;
+  height: 100px;
+}
