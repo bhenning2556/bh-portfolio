@@ -68,8 +68,8 @@ class Contact extends React.Component {
             <h1 className="w-100 text-center">Contact Me</h1>
             <hr />
             <div className="d-flex flex-column flex-md-row text-center justify-content-around align-items-center pb-2">
-              <div className="mb-2"><i class="far fa-envelope"></i> Email me: bhenning2556@gmail</div>
-              <div className="mb-2"><i class="fas fa-phone"></i> Call me: 425.273.9251</div>
+              <div className="mb-2"><i class="far fa-envelope"></i> </div>
+              <div className="mb-2"><i class="fas fa-phone"></i> </div>
               <div className="mb-2"><i class="fab fa-linkedin"></i> Connect with me: <a href="https://www.linkedin.com/in/benjaminmhenning/" target="_blank">benjaminmhenning</a></div>
             </div>
 
