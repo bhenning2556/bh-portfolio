@@ -11,8 +11,8 @@ const Layout = ({children}) => {
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
           <Navbar.Brand>Benjamin Henning</Navbar.Brand>
           <Nav className="d-inline d-lg-none">
-            <Link href="https://github.com/bhenning2556" target="_blank"><i className="fab fa-github pr-4" style={{fontSize: "28px"}}></i></Link>
-            <Link href="https://www.linkedin.com/in/benjaminmhenning/" target="_blank"><i className="fab fa-linkedin pr-4" style={{fontSize: "28px"}}></i></Link>
+            <Link href="https://github.com/bhenning2556"><a target="_blank" className="text-dark"><i className="fab fa-github pr-4" style={{fontSize: "28px"}}></i></a></Link>
+            <Link href="https://www.linkedin.com/in/benjaminmhenning/"><a target="_blank" className="text-dark"><i className="fab fa-linkedin pr-4" style={{fontSize: "28px"}}></i></a></Link>
           </Nav>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -23,8 +23,8 @@ const Layout = ({children}) => {
               <Link href="/blog" passHref><Nav.Link><i className="fas fa-edit"></i> Blog</Nav.Link></Link>
             </Nav>
             <Nav className="d-none d-lg-inline">
-              <Link href="https://github.com/bhenning2556" target="_blank"><i className="fab fa-github pr-4" style={{fontSize: "28px"}}></i></Link>
-              <Link href="https://www.linkedin.com/in/benjaminmhenning/" target="_blank"><i className="fab fa-linkedin pr-4" style={{fontSize: "28px"}}></i></Link>
+              <Link href="https://github.com/bhenning2556"><a target="_blank" className="text-dark"><i className="fab fa-github pr-4" style={{fontSize: "28px"}}></i></a></Link>
+              <Link href="https://www.linkedin.com/in/benjaminmhenning/"><a target="_blank" className="text-dark"><i className="fab fa-linkedin pr-4" style={{fontSize: "28px"}}></i></a></Link>
             </Nav>
             
           </Navbar.Collapse>

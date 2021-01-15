@@ -24,7 +24,7 @@ const Projects = () => {
               <Card>
                 <Card.Img variant="top" src={crimeHeader} className={styles.cardImg} />
                 <Card.Body className="d-flex flex-column justify-content-end">
-                  <Card.Title className="text-center">Using Machine Learning to <br />Predict Arizona Crime Data</Card.Title>
+                  <Card.Title className="text-center">Using Machine Learning to <br />Predict Arizona Crime Rates</Card.Title>
                   <Card.Text className="ml-auto mr-auto">
                     <Link href="/projects/azCrimeData" passHref><a><Button variant="primary">See Project</Button></a></Link>
                   </Card.Text>                
