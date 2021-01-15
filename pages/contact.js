@@ -1,6 +1,5 @@
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
-import Layout from '../components/layout'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
@@ -31,11 +30,6 @@ export default function Contact() {
       <div className={styles.content}>
         <h1 className="w-100 text-center">Contact Me</h1>
         <hr />
-        <div className="d-flex flex-column flex-md-row text-center justify-content-around align-items-center pb-2">
-          <div className="mb-2"><i class="far fa-envelope"></i> </div>
-          <div className="mb-2"><i class="fas fa-phone"></i> </div>
-          <div className="mb-2"><i class="fab fa-linkedin"></i> Connect with me: <a href="https://www.linkedin.com/in/benjaminmhenning/" target="_blank">benjaminmhenning</a></div>
-        </div>
 
         <Form onSubmit={sendEmail}>
 

@@ -146,6 +146,12 @@
 	background:#e9ecef;
 }
 
+.cardImg {
+  width: 320px;
+  height: 180px;
+  object-fit: cover;
+}
+
 /* Queries for responsive resizing */
 
 /* Set these values when the screen width exeeds 1000px */
@@ -159,6 +165,11 @@
   .content {
     width: 70%;
   }
+
+  .cardImg {
+  width: 320px;
+  height: 180px;
+  }
 }
 
 /* Set these values when the screen width is less than 999px */
@@ -170,6 +181,11 @@
   }
 
   .content {
-    width: 95%;
+    width: 100%;
+  }
+
+  .cardImg {
+  width: 288px;
+  height: 162px;
   }
 }
