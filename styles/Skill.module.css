@@ -6,9 +6,10 @@
 .titlebox{
   text-align:center;
 	padding:0 5px;
-	margin:-20px 0 0 0px;
+  margin:-20px 0 0 0px;
+  font-size: 12px;
 }
 .skillimg {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 }

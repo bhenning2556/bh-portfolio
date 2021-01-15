@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Layout = ({children}) => {
   return (
     <>
-      <div className="min-vh-100">
+      <div className="min-vh-100 bg-grad">
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
           <Navbar.Brand>Benjamin Henning</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -23,9 +23,10 @@ const Layout = ({children}) => {
 
         <main>{ children }</main>
 
+        <Footer />
       </div>
 
-      <Footer />
+      
 
     </>
   )

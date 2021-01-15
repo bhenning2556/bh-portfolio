@@ -19,13 +19,13 @@ const Projects = () => {
           </Row>
           <Row>
             <Card>
-              <Card.Img variant={top} />
+              <Card.Img variant="top" src="../public/images/projects/azCrimeData/Slide11.PNG" />
               <Card.Body>
                 <Card.Title>Arizona Crime Data</Card.Title>
               </Card.Body>
             </Card>
             <Card>
-              <Card.Img variant={top} />
+              <Card.Img variant="top" />
               <Card.Body>
                 <Card.Title>Monkey League Website</Card.Title>
               </Card.Body>
