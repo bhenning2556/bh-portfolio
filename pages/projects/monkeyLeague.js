@@ -1,5 +1,9 @@
+import { Container } from 'react-bootstrap'
+
 export default function MonkeyLeague() {
   return (
-    <h1>coming soon</h1>
+    <Container>
+      <h1>Work in progress</h1> 
+    </Container>
   )
 }
