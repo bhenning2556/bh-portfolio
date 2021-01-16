@@ -1,5 +1,5 @@
 ### Benjamin Henning - Portfolio
-This project is a responsive website designed to showcase my personal skills and experience in Web Development, Data Science and Design.
+This project is a responsive website designed to showcase my personal skills and experience in Web Development, Data Science and Design. You can visit the live website at https://benjaminhenning.com.
 
 ## Features
 - Responsive design that fits any screen.
@@ -8,7 +8,7 @@ This project is a responsive website designed to showcase my personal skills and
 ## Tech Stack
 - Built using [Next JS](https://nextjs.org).
 - Styled with [Bootstrap](https://getbootstrap.com/) and [react-bootstrap](https://react-bootstrap.github.io/).
-- Deployed on [Vercel](https://vercel.com/)
+- Deployed on [Vercel](https://vercel.com/).
 
 ## Credits
 - Designed and Developed by Benjamin Henning.
