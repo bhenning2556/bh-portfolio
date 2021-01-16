@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import styles from '../styles/Home.module.css'
-import crimeHeader from '../public/images/projects/azCrimeData/Slide11.png'
+import crimeHeader from '../public/images/projects/azCrimeData/preview.png'
 import monkeyLeagueHeader from '../public/images/projects/monkeyLeague/landing-page-lg.png'
 
 const Projects = () => {
