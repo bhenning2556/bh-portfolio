@@ -1,4 +1,6 @@
-import { Container } from 'react-bootstrap'
+import { Button, Col, Container } from 'react-bootstrap'
+import Link from 'next/link'
+import styles from '../../styles/Home.module.css'
 
 export default function Portfolio() {
   return (
