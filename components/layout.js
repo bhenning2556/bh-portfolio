@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Layout = ({children}) => {
   return (
     <>
-      <div className="min-vh-100 bg-grad">
+      <div className="min-vh-100 bg-grad" style={{position: "relative"}}>
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
           <Navbar.Brand>Benjamin Henning</Navbar.Brand>
           <Nav className="d-inline d-lg-none">
@@ -33,7 +33,7 @@ const Layout = ({children}) => {
 
         <main>{ children }</main>
 
-        <Footer />
+        <Footer style={{position: "absolute", bottom: "0"}}/>
       </div>
     </>
   )

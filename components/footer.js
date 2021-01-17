@@ -7,7 +7,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/benjaminmhenning/" 
             target="_blank"
             style={{color:'#212529', fontWeight:'800'}}
-            ><i class="fab fa-linkedin"></i> Connect with me on Linkedin!</a>
+            ><i className="fab fa-linkedin"></i> Connect with me on Linkedin!</a>
       </div>
     </div>
   )
