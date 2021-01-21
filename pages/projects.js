@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.css'
 import crimeHeader from '../public/images/projects/azCrimeData/preview.png'
 import monkeyLeagueHeader from '../public/images/projects/monkeyLeague/landing-page-lg.png'
 import portfolioHeader from '../public/images/projects/portfolio/preview.png'
+import binaryHeader from '../public/images/projects/BinaryNumbers/header.png'
 
 import pythonLogo from '../public/python-5.svg'
 import matplotlibLogo from '../public/matplotlib.png'
@@ -18,10 +19,11 @@ import adobeXdLogo from '../public/adobe-xd.svg'
 import htmlLogo from '../public/html-5.png'
 import cssLogo from '../public/css.png'
 import javascriptLogo from '../public/javascript.svg'
-import reactLogo from '../public/react-1.svg'
 import bootstrapLogo from '../public/bootstrap-4.svg'
 import nextjsLogo from '../public/next-js.svg'
 import contentfulLogo from '../public/contentful-logo.png'
+
+import regexLogo from '../public/regex.png'
 
 const Projects = () => {
 
@@ -91,6 +93,22 @@ const Projects = () => {
                   </Row>
                   <Card.Text className="ml-auto mr-auto">
                     <Link href="/projects/portfolio" passHref><a><Button variant="primary">See Project</Button></a></Link>
+                  </Card.Text>                
+                </Card.Body>
+              </Card>
+            </Link>
+            <Link href="/projects/BinaryNumbers" passHref>
+              <Card>
+                <Card.Img variant="top" src={binaryHeader} className={styles.cardImg} />
+                <Card.Body className="d-flex flex-column justify-content-end">
+                  <Card.Title className="text-center">Binary Numbers Data Structure</Card.Title>
+                  <Row className="mb-2 justify-content-around ml-5 mr-5">
+                    <Image src={pythonLogo} height={20} width={20} />
+                    <Image src={numpyLogo} height={20} width={20} />
+                    <Image src={regexLogo} height={20} width={20} />
+                  </Row>
+                  <Card.Text className="ml-auto mr-auto">
+                    <Link href="/projects/BinaryNumbers" passHref><a><Button variant="primary">See Project</Button></a></Link>
                   </Card.Text>                
                 </Card.Body>
               </Card>
