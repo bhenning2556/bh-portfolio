@@ -168,10 +168,16 @@ export default function HomePage() {
                   <img src={sklearnLogo} />
                   <img src={statsmodelsLogo} />
                 </div>
-                <p>Ad pariatur ut consequat laborum laborum et. Proident aliquip voluptate commodo pariatur proident cillum duis. Consequat eiusmod incididunt exercitation ullamco non veniam reprehenderit adipisicing laborum Lorem pariatur aliqua. Mollit pariatur esse pariatur dolore ipsum. Laboris qui incididunt dolor non nisi reprehenderit est. Tempor culpa anim laborum exercitation cillum minim laboris proident eiusmod. Proident Lorem fugiat consequat commodo consequat do ullamco reprehenderit culpa laboris nisi eiusmod deserunt ad. </p>
+                <div>
+                  <h2>Overview</h2>
+                  <p>This project uses data about crime rates and a machine learning model to predict crime rates in the future. Data is collected manually from the <a href="https://crime-data-explorer.fr.cloud.gov/explorer/state/arizona/crime" target="_blank">FBI crime database</a>. All graphs and visualizations are created and outputted by script.py.</p>
+
+                  <h2>Presentation</h2>
+                  <p>This project was created as my final project for ISTA 331 - Machine Learning at UofA during the Fall 2020 semester. The project was presented live in class, the recording of which is available <a href="https://youtu.be/cx8I4MnkYc4" target="_blank">here</a>. The slides and notes are also available for download in the source code repository, as well as the source code and datasets.</p>
+                </div>
                 <div className={styles.btnContainer}>
                   <a href="https://github.com/bhenning2556/AZCrimeData" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fas fa-code"></i><span> SOURCE CODE</span></button></a>
-                  <a href="https://www.youtube.com/embed/cx8I4MnkYc4" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fab fa-youtube"></i><span> PRESENTATION</span></button></a>
+                  <a href="https://youtu.be/cx8I4MnkYc4" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fab fa-youtube"></i><span> PRESENTATION</span></button></a>
                 </div>
               </div>
             </div>
@@ -230,7 +236,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <h4>Overview</h4>
-                  <p>This project was a homework assignment for ISTA 350. In this project, I created a new data structure called Binary. This data strcuture is an object which can be initilized with a string of a binary number, or left blank for a Binary number intialized to 0. The object stores the binary number in a 16-bit array. The class uses function overloading to implement the python operators =, +, -, &lt;, abs(), int(), and str().</p><br/>
+                  <p>In this project, I created a new data structure called Binary. This data strcuture is an object which can be initilized with a string of a binary number, or left blank for a Binary number intialized to 0. The object stores the binary number in a 16-bit array. The class uses function overloading to implement the python operators =, +, -, &lt;, abs(), int(), and str().</p><br/>
 
                   <h4>Features</h4>
                   <p>This project showcases some of my best software development skills and practices around object oriented programming, commenting and documentation, and algorithms.</p>
