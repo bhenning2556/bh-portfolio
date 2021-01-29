@@ -32,10 +32,8 @@
   height: 400px;
   margin-top: 40px;
   margin-bottom: 40px;
-  box-shadow: 0px 10px 5px rgba(105, 105, 105, 0.5);
-  -moz-box-shadow: 0px 10px 5px rgba(105, 105, 105, 0.5);
-  -webkit-box-shadow: 0px 10px 5px rgba(105, 105, 105, 0.5);
-  -o-box-shadow: 0px 10px 5px rgba(105, 105, 105, 0.5);
+  border: 3px solid white;
+  border-style: inset;
 }
 
 .content h1, .content h3 {
@@ -302,14 +300,25 @@
   flex-direction: row-reverse;
 }
 
-/* Media queries for responsive resizing */
-/* Set these values when the screen width exeeds 800px */
-@media screen and (min-width: 800px) {
-  .profilepic {
-    width: 400px;
-    height: 400px;
-  }
+.contactContainer .contactForm {
+  width: 50%;
 }
+
+.contactContainer .contactForm input {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid rgb(190, 190, 190);
+  margin-bottom: 2rem;
+}
+
+.contactContainer .contactForm textarea {
+  border-radius: 0;
+  border: 2px solid rgb(190, 190, 190);
+}
+
+
+/* Media queries for responsive resizing */
+
 /* Set these values when the screen width is less than 799px */
 @media screen and (max-width: 799px) {
   .profilepic {
@@ -354,5 +363,9 @@
   }
   .projectsContainer .card .cardBody p ul {
     text-align: start;
+  }
+
+  .contactContainer .contactForm {
+    width: 70%;
   }
 }

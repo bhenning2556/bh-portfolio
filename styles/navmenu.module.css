@@ -1,0 +1,80 @@
+.navFab {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  z-index: 1;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 2;
+  background: white;
+  width: 30%;
+  visibility: hidden;
+}
+/*@keyframes slide {
+  100% {width: 30%};
+}*/
+
+.backIcon {
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+  padding-right: 20px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.navMenu ul li {
+  color: black;
+  margin: 20px;
+  font-size: 2rem;
+}
+
+.navMenu ul li a {
+  color: inherit;
+}
+
+.navMenu ul {
+  list-style: none;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* Media queries for responsive resizing */
+
+/* Set these values when the screen width is less than 799px */
+@media screen and (max-width: 799px) {
+  .navMenu {
+    width: 100%;
+    height: auto;
+  }
+
+  .navMenu ul li {
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+}

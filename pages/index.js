@@ -5,6 +5,7 @@ import stars from '../styles/stars.module.css'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import emailjs from 'emailjs-com'
+import Layout from '../components/layout'
 
 // ---------- IMAGE IMPORTS ----------
 import profilepic from '../public/profile_pic_2021.png'
@@ -74,9 +75,8 @@ export default function HomePage() {
           <p className={styles.locationtag}><i className="fas fa-map-marker-alt"></i> Phoenix, Arizona</p>
         </div>
         <div className={styles.downIndicator}><a href="#about" style={{color:"#707070"}}><i className="fas fa-chevron-down"></i></a></div>
-        
       </section>
-
+    
       <section className={styles.aboutContainer} id="about">
         <h1>About Me</h1>
         <div className={styles.hero}>
@@ -254,31 +254,26 @@ export default function HomePage() {
           <h1>Contact Me</h1>
           <hr />
 
-          <Form onSubmit={sendEmail}>
+          <Form onSubmit={sendEmail} className={styles.contactForm}>
 
             <Form.Group controlId="nameForm">
-              <Form.Label>First and Last Name</Form.Label>
               <Form.Control type="text" placeholder="First and Last Name" required name="name" />
             </Form.Group>
 
             <Form.Group controlId="emailForm">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Email" required name="email" />
+              <Form.Control type="email" placeholder="Email Address" required name="email" />
             </Form.Group>
 
             <Form.Group controlId="organizationForm">
-              <Form.Label>Organization</Form.Label>
               <Form.Control type="text" placeholder="Organization" required name="organization" />
             </Form.Group>
 
             <Form.Group controlId="subjectForm">
-              <Form.Label>Subject</Form.Label>
               <Form.Control type="text" placeholder="Subject" required name="subject" />
             </Form.Group>
 
             <Form.Group controlId="messageForm">
-              <Form.Label>Message</Form.Label>
-              <Form.Control as="textarea" rows={3} required name="message" />
+              <Form.Control as="textarea" rows={3} required name="message" placeholder="Message" />
             </Form.Group>
 
             <div className="w-100 d-flex justify-content-center">
@@ -290,6 +285,8 @@ export default function HomePage() {
           </Form>
         </div>   
       </section>
+
+      <Layout />
     </>
   )
 }
