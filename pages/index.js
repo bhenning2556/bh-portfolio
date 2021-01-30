@@ -158,7 +158,7 @@ export default function HomePage() {
           <div className={styles.cards}>
 
             <div className={styles.card} id={styles.cardReverse}>
-              <img className={styles.cardImg} src={issueTrackerHeader} alt="Issue Tracker Preivew" />
+              <img className={styles.cardImg} src={issueTrackerHeader} alt="Issue Tracker Preview" />
               <div className={styles.cardBody}>
                 <h3>Issue Tracker</h3>
                 <div className={styles.cardSkills}>
@@ -171,10 +171,10 @@ export default function HomePage() {
                   <img src={javascriptLogo} />
                 </div>
                 <div>
-                  <h2>Overview</h2>
+                  <h4>Overview</h4>
                   <p>This project is a full-stack web solution for Project Managers and Development Teams to track bugs and issues in their systems. The application will have CRUD functionality, meaning users and admins will be able to easily manage and store bug data in a relational database. The application be built using the MVC design pattern, so the code and file structure will be familiar to any third parties who view or work on the application after the development period.</p>
 
-                  <h2>Features</h2>
+                  <h4>Features</h4>
                   <ul>
                     <li>Secure login/registration.</li>
                     <li>Create a new organization or join an existing one.</li>
@@ -183,13 +183,13 @@ export default function HomePage() {
                     <li>Add new issues to the project, and view, update, or delete existing ones.</li>
                   </ul>
 
-                  <h2>Tech Stack</h2>
+                  <h4>Tech Stack</h4>
                   <ul>
                     <li>Built with C# and ASP.NET MVC.</li>
                     <li>Database built using Microsoft SQL Server.</li>
                   </ul>
 
-                  <h2>Credits</h2>
+                  <h4>Credits</h4>
                   <p>Designed and Developed by Benjamin Henning.</p>
                 </div>
                 <div className={styles.btnContainer}>
@@ -200,7 +200,7 @@ export default function HomePage() {
             </div>
 
             <div className={styles.card}>
-              <img className={styles.cardImg} src={crimeHeader} alt="az crime data" />
+              <img className={styles.cardImg} src={crimeHeader} alt="az crime data preview" />
               <div className={styles.cardBody}>
                 <h3>Using Machine Learning to Predict Arizona Crime Rates</h3>
                 <div className={styles.cardSkills}>
@@ -213,11 +213,14 @@ export default function HomePage() {
                   <img src={statsmodelsLogo} />
                 </div>
                 <div>
-                  <h2>Overview</h2>
+                  <h4>Overview</h4>
                   <p>This project uses data about crime rates and a machine learning model to predict crime rates in the future. Data is collected manually from the <a href="https://crime-data-explorer.fr.cloud.gov/explorer/state/arizona/crime" target="_blank">FBI crime database</a>. All graphs and visualizations are created and outputted by script.py.</p>
 
-                  <h2>Presentation</h2>
+                  <h4>Presentation</h4>
                   <p>This project was created as my final project for ISTA 331 - Machine Learning at UofA during the Fall 2020 semester. The project was presented live in class, the recording of which is available <a href="https://youtu.be/cx8I4MnkYc4" target="_blank">here</a>. The slides and notes are also available for download in the source code repository, as well as the source code and datasets.</p>
+
+                  <h4>Credits</h4>
+                  <p>Developed and Presented by Benjamin Henning.</p>
                 </div>
                 <div className={styles.btnContainer}>
                   <a href="https://github.com/bhenning2556/AZCrimeData" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fas fa-code"></i><span> SOURCE CODE</span></button></a>
@@ -227,7 +230,7 @@ export default function HomePage() {
             </div>
 
             <div className={styles.card} id={styles.cardReverse}>
-              <img className={styles.cardImg} src={monkeyLeagueHeader} alt="monkeyleague header" />
+              <img className={styles.cardImg} src={monkeyLeagueHeader} alt="monkeyleague preview" />
               <div className={styles.cardBody}>
                 <h3>Monkey League Website</h3>
                 <div className={styles.cardSkills}>
@@ -269,7 +272,45 @@ export default function HomePage() {
           </div>
 
           <div className={styles.card}>
-              <img className={styles.cardImg} src={binaryHeader} alt="az crime data" />
+              <img className={styles.cardImg} src={portfolioHeader} alt="portfolio preview" />
+              <div className={styles.cardBody}>
+                <h3>This Portfolio!</h3>
+                <div className={styles.cardSkills}>
+                  Tech Stack: 
+                  <img src={nextjsLogo} />
+                  <img src={bootstrapLogo} />
+                  <img src={htmlLogo} />
+                  <img src={cssLogo} />
+                  <img src={javascriptLogo} />
+                </div>
+                <div>
+                  <h4>Overview</h4>
+                  <p>This project is a responsive website designed to showcase my personal skills and experience in Software Development, Web Development and Design.</p>
+
+                  <h4>Features</h4>
+                  <ul>
+                    <li>Responsive design that fits any screen.</li>
+                    <li>An integrated contact form using <a href="https://www.emailjs.com/" target="_blank">emailJS</a>.</li>
+                  </ul>
+
+                  <h4>Tech Stack</h4>
+                  <ul>
+                    <li>Built using <a href="https://nextjs.org/" target="_blank">NextJS</a>.</li>
+                    <li>Styled with <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> and <a href="https://react-bootstrap.github.io/" target="_blank">react-bootstrap</a>.</li>
+                    <li>Deployed on <a href="https://vercel.com/" target="_blank">Vercel</a>.</li>
+                  </ul>
+
+                  <h4>Credits</h4>
+                  <p>Designed and Developed by Benjamin Henning.</p>
+                </div>
+                <div className={styles.btnContainer}>
+                  <a href="https://github.com/bhenning2556/bh-portfolio" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fas fa-code"></i><span> SOURCE CODE</span></button></a>
+                </div>
+              </div>
+            </div>
+
+          <div className={styles.card} id={styles.cardReverse}>
+              <img className={styles.cardImg} src={binaryHeader} alt="binary preview" />
               <div className={styles.cardBody}>
                 <h3>Binary Numbers Data Structure</h3>
                 <div className={styles.cardSkills}>
@@ -280,7 +321,7 @@ export default function HomePage() {
                 </div>
                 <div>
                   <h4>Overview</h4>
-                  <p>In this project, I created a new data structure called Binary. This data strcuture is an object which can be initilized with a string of a binary number, or left blank for a Binary number intialized to 0. The object stores the binary number in a 16-bit array. The class uses function overloading to implement the python operators =, +, -, &lt;, abs(), int(), and str().</p><br/>
+                  <p>In this project, I created a new data structure called Binary. This data strcuture is an object which can be initilized with a string of a binary number, or left blank for a Binary number intialized to 0. The object stores the binary number in a 16-bit array. The class uses function overloading to implement the python operators =, +, -, &lt;, abs(), int(), and str().</p>
 
                   <h4>Features</h4>
                   <p>This project showcases some of my best software development skills and practices around object oriented programming, commenting and documentation, and algorithms.</p>
