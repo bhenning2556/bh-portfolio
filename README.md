@@ -1,5 +1,5 @@
 ### Benjamin Henning - Portfolio
-This project is a responsive website designed to showcase my personal skills and experience in Web Development, Data Science and Design. You can visit the live website at https://benjaminhenning.com.
+This project is a responsive website designed to showcase my personal skills and experience in Software Development, Web Development and Design. You can visit the live website at https://benjaminhenning.com.
 
 ## Features
 - Responsive design that fits any screen.
