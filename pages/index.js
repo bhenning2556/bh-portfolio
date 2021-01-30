@@ -43,6 +43,7 @@ import crimeHeader from '../public/images/azCrimeDataPreview.png'
 import monkeyLeagueHeader from '../public/images/monkeyleaguePreview.png'
 import portfolioHeader from '../public/images/portfolioPreview.png'
 import binaryHeader from '../public/images/BinaryNumbersPreview.png'
+import issueTrackerHeader from '../public/images/issueTrackerPreview.png'
 // ---------- END IMAGE IMPORTS ----------
 
 export default function HomePage() {
@@ -93,7 +94,7 @@ export default function HomePage() {
           <div className={styles.heroItem}>
             <i className="fas fa-flag-checkered"></i>
             <h3>Goals</h3>
-            <p>In the near future I hope to expand my portfolio by building several full stack applications that show off my programming experience. My current project is an Issue tracker built with C#, ASP.NET and SQL. You can see my progress so far by scrolling down to the <a href="#projects">projects</a> section.</p>
+            <p>In addition to getting hired as a software developer, my goal for the immediate future is to expand my portfolio by building several full stack applications that show off my programming experience. My current project is an Issue tracker built with C#, ASP.NET and SQL. You can see my progress so far by scrolling down to the <a href="#projects">projects</a> section.</p>
           </div>
         </div>
 
@@ -155,6 +156,49 @@ export default function HomePage() {
         <div className={styles.content}>
           <h1>Projects</h1>
           <div className={styles.cards}>
+
+            <div className={styles.card} id={styles.cardReverse}>
+              <img className={styles.cardImg} src={issueTrackerHeader} alt="Issue Tracker Preivew" />
+              <div className={styles.cardBody}>
+                <h3>Issue Tracker</h3>
+                <div className={styles.cardSkills}>
+                  Tech Stack: 
+                  <img src={csharpLogo} />
+                  <img src={aspnetLogo} />
+                  <img src={sqlLogo} />
+                  <img src={htmlLogo} />
+                  <img src={cssLogo} />
+                  <img src={javascriptLogo} />
+                </div>
+                <div>
+                  <h2>Overview</h2>
+                  <p>This project is a full-stack web solution for Project Managers and Development Teams to track bugs and issues in their systems. The application will have CRUD functionality, meaning users and admins will be able to easily manage and store bug data in a relational database. The application be built using the MVC design pattern, so the code and file structure will be familiar to any third parties who view or work on the application after the development period.</p>
+
+                  <h2>Features</h2>
+                  <ul>
+                    <li>Secure login/registration.</li>
+                    <li>Create a new organization or join an existing one.</li>
+                    <li>Assign roles with set permission levels for users in your organization.</li>
+                    <li>Create projects and add users from your organization to them.</li>
+                    <li>Add new issues to the project, and view, update, or delete existing ones.</li>
+                  </ul>
+
+                  <h2>Tech Stack</h2>
+                  <ul>
+                    <li>Built with C# and ASP.NET MVC.</li>
+                    <li>Database built using Microsoft SQL Server.</li>
+                  </ul>
+
+                  <h2>Credits</h2>
+                  <p>Designed and Developed by Benjamin Henning.</p>
+                </div>
+                <div className={styles.btnContainer}>
+                  <a href="https://github.com/bhenning2556/IssueTracker" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fas fa-code"></i><span> SOURCE CODE</span></button></a>
+                  <button type="button" disabled id={styles.btn} className="btn btn-info"><i className="fas fa-desktop"></i><span> Live Preview</span></button>
+                </div>
+              </div>
+            </div>
+
             <div className={styles.card}>
               <img className={styles.cardImg} src={crimeHeader} alt="az crime data" />
               <div className={styles.cardBody}>
