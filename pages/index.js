@@ -89,7 +89,7 @@ export default function HomePage() {
           <div className={styles.heroItem}>
             <i className="fas fa-question-circle"></i>
             <h3>What I do</h3>
-            <p>I am a junior software developer with experience designing, building, and deploying full stack web applications. I can take a project from a simple idea into a fully functional solution, and I love building web applications from the ground up.</p>
+            <p>I am a junior software developer who builds software solutions to solve industry problems. I have classroom and applied experience designing, building and deploying full stack web applications, and I use my diverse set of skills and technologies to take projects from just simple ideas all the way to  fully functional, production-ready solutions.</p>
           </div>
           <div className={styles.heroItem}>
             <i className="fas fa-flag-checkered"></i>
