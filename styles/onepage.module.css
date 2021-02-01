@@ -139,6 +139,8 @@
   flex-direction: column;
   padding-left: 1rem;
   padding-right: 1rem;
+  width: 20rem;
+  align-items: center;
 }
 
 .skillCol h3 {
@@ -151,6 +153,7 @@
   line-height: 40px;
   align-items: center;
   padding: 0;
+  width: 100%;
 }
 
 .skillList li {
@@ -332,7 +335,9 @@
   }
 
   .skillsContainer {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
