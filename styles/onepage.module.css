@@ -324,6 +324,13 @@
   border: 2px solid rgb(190, 190, 190);
 }
 
+.notice {
+  color: red;
+  font-size: 12px;
+  margin: 0;
+  margin-top: 1rem;
+}
+
 
 /* Media queries for responsive resizing */
 

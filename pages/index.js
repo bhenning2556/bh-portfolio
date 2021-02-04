@@ -157,7 +157,7 @@ export default function HomePage() {
           <h1>Projects</h1>
           <div className={styles.cards}>
 
-            <div className={styles.card} id={styles.cardReverse}>
+            <div className={styles.card}>
               <img className={styles.cardImg} src={issueTrackerHeader} alt="Issue Tracker Preview" />
               <div className={styles.cardBody}>
                 <h3>Issue Tracker</h3>
@@ -199,36 +199,6 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className={styles.card}>
-              <img className={styles.cardImg} src={crimeHeader} alt="az crime data preview" />
-              <div className={styles.cardBody}>
-                <h3>Using Machine Learning to Predict Arizona Crime Rates</h3>
-                <div className={styles.cardSkills}>
-                  Tech Stack: 
-                  <img src={pythonLogo} />
-                  <img src={matplotlibLogo} />
-                  <img src={numpyLogo} />
-                  <img src={pandasLogo} />
-                  <img src={sklearnLogo} />
-                  <img src={statsmodelsLogo} />
-                </div>
-                <div>
-                  <h4>Overview</h4>
-                  <p>This project uses data about crime rates and a machine learning model to predict crime rates in the future. Data is collected manually from the <a href="https://crime-data-explorer.fr.cloud.gov/explorer/state/arizona/crime" target="_blank">FBI crime database</a>. All graphs and visualizations are created and outputted by script.py.</p>
-
-                  <h4>Presentation</h4>
-                  <p>This project was created as my final project for ISTA 331 - Machine Learning at UofA during the Fall 2020 semester. The project was presented live in class, the recording of which is available <a href="https://youtu.be/cx8I4MnkYc4" target="_blank">here</a>. The slides and notes are also available for download in the source code repository, as well as the source code and datasets.</p>
-
-                  <h4>Credits</h4>
-                  <p>Developed and Presented by Benjamin Henning.</p>
-                </div>
-                <div className={styles.btnContainer}>
-                  <a href="https://github.com/bhenning2556/AZCrimeData" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fas fa-code"></i><span> SOURCE CODE</span></button></a>
-                  <a href="https://youtu.be/cx8I4MnkYc4" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fab fa-youtube"></i><span> PRESENTATION</span></button></a>
-                </div>
-              </div>
-            </div>
-
             <div className={styles.card} id={styles.cardReverse}>
               <img className={styles.cardImg} src={monkeyLeagueHeader} alt="monkeyleague preview" />
               <div className={styles.cardBody}>
@@ -265,11 +235,12 @@ export default function HomePage() {
                 </div>
                 <div className={styles.btnContainer}>
                   <button type="button" disabled id={styles.btn} className="btn btn-info"><i className="fas fa-code"></i><span> SOURCE CODE</span></button>
-                  <a href="https://monkey-league-app-nextjs-contentful-git-master.philliplewicki.vercel.app/" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fas fa-desktop"></i><span> LIVE PREVIEW</span></button></a>
+                  <a href="https://monkeyleague.org/" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fas fa-desktop"></i><span> LIVE PREVIEW</span></button></a>
                 </div>
+                <p className={styles.notice}>Source Code private, can be provided on request.</p>
               </div>
             </div>
-          </div>
+          
 
           <div className={styles.card}>
               <img className={styles.cardImg} src={portfolioHeader} alt="portfolio preview" />
@@ -310,6 +281,36 @@ export default function HomePage() {
             </div>
 
           <div className={styles.card} id={styles.cardReverse}>
+              <img className={styles.cardImg} src={crimeHeader} alt="az crime data preview" />
+              <div className={styles.cardBody}>
+                <h3>Using Machine Learning to Predict Arizona Crime Rates</h3>
+                <div className={styles.cardSkills}>
+                  Tech Stack: 
+                  <img src={pythonLogo} />
+                  <img src={matplotlibLogo} />
+                  <img src={numpyLogo} />
+                  <img src={pandasLogo} />
+                  <img src={sklearnLogo} />
+                  <img src={statsmodelsLogo} />
+                </div>
+                <div>
+                  <h4>Overview</h4>
+                  <p>This project uses data about crime rates and a machine learning model to predict crime rates in the future. Data is collected manually from the <a href="https://crime-data-explorer.fr.cloud.gov/explorer/state/arizona/crime" target="_blank">FBI crime database</a>. All graphs and visualizations are created and outputted by script.py.</p>
+
+                  <h4>Presentation</h4>
+                  <p>This project was created as my final project for ISTA 331 - Machine Learning at UofA during the Fall 2020 semester. The project was presented live in class, the recording of which is available <a href="https://youtu.be/cx8I4MnkYc4" target="_blank">here</a>. The slides and notes are also available for download in the source code repository, as well as the source code and datasets.</p>
+
+                  <h4>Credits</h4>
+                  <p>Developed and Presented by Benjamin Henning.</p>
+                </div>
+                <div className={styles.btnContainer}>
+                  <a href="https://github.com/bhenning2556/AZCrimeData" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fas fa-code"></i><span> SOURCE CODE</span></button></a>
+                  <a href="https://youtu.be/cx8I4MnkYc4" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fab fa-youtube"></i><span> PRESENTATION</span></button></a>
+                </div>
+              </div>
+            </div>
+
+          <div className={styles.card} id={styles.cardReverse}>
               <img className={styles.cardImg} src={binaryHeader} alt="binary preview" />
               <div className={styles.cardBody}>
                 <h3>Binary Numbers Data Structure</h3>
@@ -324,14 +325,14 @@ export default function HomePage() {
                   <p>In this project, I created a new data structure called Binary. This data strcuture is an object which can be initilized with a string of a binary number, or left blank for a Binary number intialized to 0. The object stores the binary number in a 16-bit array. The class uses function overloading to implement the python operators =, +, -, &lt;, abs(), int(), and str().</p>
 
                   <h4>Features</h4>
-                  <p>This project showcases some of my best software development skills and practices around object oriented programming, commenting and documentation, and algorithms.</p>
+                  <p>This project showcases some of my software development skills and practices around object oriented programming, documentation, and algorithms.</p>
                 </div>
                 <div className={styles.btnContainer}>
                   <a href="https://github.com/bhenning2556/Binary-Number-Data-Structure" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fas fa-code"></i><span> SOURCE CODE</span></button></a>
                 </div>
               </div>
             </div>
-          
+          </div>  
         </div>
       </section>
       <section className={styles.contactContainer} id="contact">
