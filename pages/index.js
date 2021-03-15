@@ -160,7 +160,7 @@ export default function HomePage() {
             <div className={styles.card}>
               <img className={styles.cardImg} src={issueTrackerHeader} alt="Issue Tracker Preview" />
               <div className={styles.cardBody}>
-                <h3>Issue Tracker</h3>
+                <h3>Issue Tracker (In Development)</h3>
                 <div className={styles.cardSkills}>
                   Tech Stack: 
                   <img src={csharpLogo} />
@@ -176,7 +176,7 @@ export default function HomePage() {
 
                   <h4>Features</h4>
                   <ul>
-                    <li>Secure login/registration.</li>
+                    <li>Authorization/Authentication.</li>
                     <li>Create a new organization or join an existing one.</li>
                     <li>Assign roles with set permission levels for users in your organization.</li>
                     <li>Create projects and add users from your organization to them.</li>
@@ -193,7 +193,7 @@ export default function HomePage() {
                   <p>Designed and Developed by Benjamin Henning.</p>
                 </div>
                 <div className={styles.btnContainer}>
-                  <a href="https://github.com/bhenning2556/IssueTracker" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fas fa-code"></i><span> SOURCE CODE</span></button></a>
+                  <a href="https://github.com/bhenning2556/IssueTrackerApp2" target="_blank"><button id={styles.btn} className="btn btn-info"><i className="fas fa-code"></i><span> SOURCE CODE</span></button></a>
                   <button type="button" disabled id={styles.btn} className="btn btn-info"><i className="fas fa-desktop"></i><span> Live Preview</span></button>
                 </div>
               </div>
